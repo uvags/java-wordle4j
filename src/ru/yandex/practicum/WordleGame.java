@@ -137,4 +137,8 @@ public class WordleGame {
     public boolean isWon() {
         return won;
     }
+
+    public List<String> getHintsGiven() {
+        return new ArrayList<>(hintsGiven);
+    }
 }
