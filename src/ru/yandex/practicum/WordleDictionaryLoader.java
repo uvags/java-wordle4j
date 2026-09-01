@@ -30,8 +30,8 @@ public class WordleDictionaryLoader {
             }
         }
         if (words.isEmpty()) {
-            throw new RuntimeException("Словарь пуст или не содержит слов длиной " + WordleGameConfig.
-                    WORD_LENGTH + " букв.");
+            throw new RuntimeException("Словарь пуст или не содержит слов длиной " + WordleGameConfig
+                    .WORD_LENGTH + " букв.");
         }
         log.println("Словарь загружен. Количество слов: " + words.size());
         log.flush();
